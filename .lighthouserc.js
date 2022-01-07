@@ -1,8 +1,7 @@
 module.exports = {
   ci: {
     collect: {
-      startServerCommand: "yarn dev",
-      url: ["http://localhost:3000/"]
+      staticDistDir: "./dist",
     },
     upload: {
       target: "lhci",
